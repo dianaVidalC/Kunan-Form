@@ -1,0 +1,153 @@
+*{
+  margin: 0;
+  padding: 0;
+  color: #798e94;
+}
+
+section{
+  height: 600rem;
+  width: 60%;
+  margin:10rem 20rem auto;
+  font-family: 'Raleway', sans-serif;
+}
+form{
+  width: 53rem;
+  height: 600rem;
+}
+
+section p,h1,h2,span{
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+  line-height: 1.5rem;
+}
+form label{
+  display: block;
+  margin-bottom: 1rem;
+}
+
+form input{
+  display: block;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin-bottom: 1rem;
+}
+
+form select{
+  margin-bottom: 1rem;
+}
+
+.color{
+  color: #fb6d12
+}
+.subrayado{
+  text-decoration: underline;
+}
+.enlinea{
+  display: inline-block;
+  padding-bottom: 0;
+  padding-left: 0.5rem;
+}
+
+.columna1,
+.columna3,
+.columna6,
+.columna8,
+.columna10{
+  display: inline-block;
+  width: 49%;
+}
+
+.columna2,
+.columna4{
+  position: absolute;
+  display: inline-block;
+  width: 30%;
+  margin-left: 7rem;
+}
+
+.columna5{
+  margin-top: 6rem;
+}
+
+.columna7,
+.columna9,
+.columna11{
+  float: right;
+  margin-right: 4rem;
+}
+
+.edad{
+  width: 7rem;
+}
+
+.ubicacion{
+  margin-top: 9rem;
+}
+
+.ubicacion2{
+  margin-top: 70.5rem;
+}
+
+.negrita{
+  font-weight: bold;
+}
+
+.cursiva{
+  font-style: italic;
+}
+
+.entrada-texto{
+  resize: none;
+  width: 90%;
+}
+
+.espacio{
+  margin-top: 2rem;
+}
+
+.columna7 label{
+  margin-top: 0;
+  padding-bottom: 0.5rem;
+}
+.columna8,
+.columna9{
+  font-size: 0.8rem;
+}
+
+.margen-arriba1{
+  margin-top:1rem;
+}
+
+.margen-arriba2{
+  margin-top:2.5rem;
+}
+
+.margen-abajo{
+  margin-bottom: 0;
+}
+
+.columna10{
+  height: 44rem;
+}
+ul{
+  margin-left: 1.8rem;
+}
+
+ol{
+  margin-left: 0.8rem;
+}
+
+input[type="submit"]{
+  width: 5rem;
+  height: 2.5rem;
+  border-radius: 0.2rem;
+  background: #fb6d12;
+  color: #fff;
+  margin: 0 auto;
+  margin-top: 3rem;
+}
+
+.izquierda{
+  float: right;
+}
