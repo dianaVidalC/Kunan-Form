@@ -7,7 +7,7 @@
 section{
   height: 600rem;
   width: 60%;
-  margin:10rem 20rem auto;
+  margin:10rem 10rem auto;
   font-family: 'Raleway', sans-serif;
 }
 form{
@@ -37,6 +37,10 @@ form select{
   margin-bottom: 1rem;
 }
 
+input[type="text"]{
+  width: 24rem;
+  margin-top: 1.5rem;
+}
 .color{
   color: #fb6d12
 }
@@ -74,7 +78,7 @@ form select{
 .columna9,
 .columna11{
   float: right;
-  margin-right: 4rem;
+  margin-right: 0;
 }
 
 .edad{
@@ -86,7 +90,7 @@ form select{
 }
 
 .ubicacion2{
-  margin-top: 70.5rem;
+  margin-top: 69.9rem;
 }
 
 .negrita{
@@ -150,4 +154,8 @@ input[type="submit"]{
 
 .izquierda{
   float: right;
+}
+
+#longitud{
+  width: 46rem;
 }
